@@ -1,6 +1,6 @@
 const listContacts = require('./listContact');
 const fileOperation = require('../fileOperation');
-const contactsPath = require('../contactPath');
+const contactsPath = require('../getContactsPath');
 
 async function removeContact(contactId) {
   const allList = await listContacts();

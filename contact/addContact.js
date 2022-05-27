@@ -1,7 +1,7 @@
 const { v4 } = require('uuid');
 const listContacts = require('./listContact');
 const fileOperation = require('../fileOperation');
-const contactsPath = require('../contactPath');
+const contactsPath = require('../getContactsPath');
 
 async function addContact(name, email, phone) {
   const allList = await listContacts();

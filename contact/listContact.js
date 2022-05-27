@@ -1,5 +1,5 @@
 const fileOperation = require('../fileOperation');
-const contactsPath = require('../contactPath');
+const contactsPath = require('../getContactsPath');
 
 async function listContacts() {
   return await fileOperation.readFile(contactsPath);
