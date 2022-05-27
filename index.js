@@ -35,11 +35,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// const args = process.argv.slice(2);
-// const index = args.indexOf('--action');
-// const action = args[index + 1];
-// if (index !== -1) {
-//   invokeAction({ action });
-// }
-
 invokeAction(commander.argv);
