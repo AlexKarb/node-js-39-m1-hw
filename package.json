@@ -1,0 +1,28 @@
+{
+  "name": "node-hw1",
+  "version": "1.0.0",
+  "description": "home work of node -goit2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexKarb/node-js-39-m1-hw"
+  },
+  "author": "Alex k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKarb/node-js-39-m1-hw/issues"
+  },
+  "homepage": "https://github.com/AlexKarb/node-js-39-m1-hw#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
